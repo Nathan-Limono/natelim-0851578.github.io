@@ -81,7 +81,7 @@ li {
     border:solid 8px black;
     text-align:center;
     float:right;
-    border-image: url(pusheen.png) 30 round;
+    writing-mode: vertical-rl;
 }
 ul{
     list-style-type:none;
