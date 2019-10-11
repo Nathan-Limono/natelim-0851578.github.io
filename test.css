@@ -38,16 +38,19 @@ li {
     font-family: "Passion One";
     color:#FFBC00;
     font-weight: bold;
+    
 
 }
 
 #LeftNav {
+    opacity: 0.5;
     width: 400px;
     float: left;
     border:solid 8px black;
     text-align:center;
-    padding-bottom: 0px;
+    padding-bottom: 8px;
     border-radius: 30px;
+    background-image: linear-gradient(gold, purple)
 }
 
 #LeftNav img {
@@ -62,25 +65,12 @@ li {
 
 }
 
-#Content {
-    width: 700px;
-    margin-left:auto;
-    margin-right:auto;
-    border:solid 8px black;
-    text-align:center;
+#Content.textBox {
     padding: 15px;
-    float:right;
-    opacity: 0.5;
-    background-image: linear-gradient(gold, purple)
 }
 
-#Footer {
-    width: 700px;
-    margin-left:auto;
-    margin-right:auto;
-    border:solid 8px black;
-    text-align:center;
-    float:right;
+#Footer.textBox {
+
     writing-mode: vertical-rl;
 }
 ul{
@@ -92,4 +82,21 @@ a {
     color: white;
     font-weight: bold; 
     font-size: 24px;
+}
+
+.textBox {
+    width: 700px;
+    margin-left:auto;
+    margin-right:auto;
+    border:solid 8px black;
+    text-align:center;
+    float:right;
+}
+
+.content{
+    padding: 15px;
+}
+
+.footer{
+    writing-mode: vertical-rl;
 }
